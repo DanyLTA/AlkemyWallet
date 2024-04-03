@@ -5,41 +5,43 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <style>
     body {
-      padding: 20px;
+      padding: 60px;
     }
 
     .container {
       max-width: 400px;
       margin: 0 auto;
+      border-style: outset;
+      padding: 20px;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h2>Enviar Dinero</h2>
+    <h2 style="color: blue;font-family: cursive;">Enviar Dinero</h2>
     <form>
       <div class="form-group">
-        <label for="searchContact">Buscar en la agenda de transferencias:</label>
-        <input type="text" class="form-control" id="searchContact" placeholder="Search contact">
+        <label for="searchContact" style="color: blue;font-family: cursive;">Buscar en la agenda de transferencias:</label>
+        <input type="text" class="form-control" id="searchContact" placeholder="Buscar contacto">
       </div>
       <button type="submit" class="btn btn-primary">Agregar nuevo contacto</button>
- <h3>Contactos</h3>
+ <h3 style="color: blue;font-family: cursive;">Contactos</h3>
   <ul id="contactList" class="list-group">
     <li class="list-group-item">
       <div class="contact-info">
-        <span class="contact-name">John Doe</span>
-        <span class="contact-details">CBU: 123456789, Alias: john.doe, Banco: ABC Bank</span>
+        <span class="contact-name">Juan Soto</span>
+        <span class="contact-details">NCuenta: 123456789, Alias: Juancito, Banco: ABC Banco</span>
       </div>
     </li>
     <li class="list-group-item">
       <div class="contact-info">
-        <span class="contact-name">Jane Smith</span>
-        <span class="contact-details">CBU: 987654321, Alias: jane.smith, Banco: XYZ Bank</span>
+        <span class="contact-name">José Pérez</span>
+        <span class="contact-details">Ncuenta: 987654321, Alias: Jo, Banco: XYZ Banco</span>
       </div>
     </li>
-      <button type="submit" class="btn btn-primary">Enviar dinero</button>
+      <button type="submit" class="btn btn-primary mb-2">Enviar dinero</button>
     </form>
-    <a href="menu.html" class="btn btn-secondary">Volver al Menú Principal</a>
+    <a href="menu.html" class="btn btn-primary">Volver al Menú Principal</a>
   </div>
 </body>
 </html>

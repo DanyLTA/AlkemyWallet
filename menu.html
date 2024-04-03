@@ -4,26 +4,36 @@
   <title>Wallet - Menú Principal</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <style>
+    
+    h3 {
+      border-color: rgb(243, 239, 239);
+      border-radius: 32px;
+      border-style: groove;
+    }
+    
     body {
-      padding: 80px;
+      padding: 60px;
     }
 
     .container {
-      max-width: 500px;
+      max-width: 400px;
       margin: 0 auto;
+      border-style: outset;
+      padding: 20px;
+      border-radius: 20px;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h2>Menú Principal</h2>
+    <h2 style="color: rgb(23, 23, 170); font-family:cursive;">Menú Principal</h2>
     <div class="form-group">
-      <label for="balance">Dinero en cuenta:</label>
-      <h3>$90000000</h3>
-    </div>
-    <a href="deposit.html" class="btn btn-primary btn-lg">Depositar</a>
-    <a href="sendmoney.html" class="btn btn-primary btn-lg">Enviar Dinero</a>
-    <a href="transactions.html" class="btn btn-primary btn-lg">Últimos Movimientos</a>
+      <label for="balance" style="color:  rgb(23, 23, 170); font-family: cursive;">Dinero en cuenta:</label>
+      <h3 style="color: rgb(115, 144, 238);">$ 90.000.000</h3>
+    <a href="deposit.html" class="btn btn-primary btn">Depositar</a>
+    <a href="sendmoney.html" class="btn btn-primary btn">Enviar Dinero</a>
+  </div>
+    <a href="transactions.html" class="btn btn-primary btn">Últimos Movimientos</a>
   </div>
 </body>
 </html>
